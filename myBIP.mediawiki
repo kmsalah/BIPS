@@ -1,6 +1,6 @@
 <pre>
   BIP: 200
-  Title: Instructional Documentation
+  Title: New Instructional Documentation
   Author: Khalid Salah <ksalah@email.sc.edu>
   Status: Draft
   Type: Informational
@@ -15,13 +15,18 @@ Bitcoin has recently become a household name and with new users joining the plat
 
 ==Introduction==
 
-The current Bitcoin Core client, bitcoind, has both a command line interface in C++ and a graphical user interface written in C++ and Qt. This client serves as a wallet for users to store, send, and recieve Bitcoin. More advanced and technical users enjoy using the client's command line interface the most and find it the easiest, as is the trend when tech-savvy people have the option of using a command line interface. However, most non-technical users have no experience with a command line interface and will have to resort to using the desktop graphical user interface.
+The current Bitcoin Core client, bitcoin[1], has both a command line interface in C++ and a graphical user interface written in C++ and Qt. This client serves as a wallet for users to store, send, and recieve Bitcoin. More advanced and technical users enjoy using the client's command line interface the most and find it the easiest, as is the trend when tech-savvy people have the option of using a command line interface. However, most non-technical users have no experience with a command line interface and will have to resort to using the desktop graphical user interface.
 
-Downloading the graphical user interface is not that difficult and after spending many hours downloading the entire blockchain data files, a user finds themselves at a front page with four tabs:
+Downloading the graphical user interface is not that difficult and after spending many hours downloading all the blockchain data files, a user finds themselves at a front page with four tabs:
 
 *Overview: The user's available, pending, and total balance are shown. A list of recent transactions is also listed to the right.
 *Send: This page allows you to send a specific amount of Bitcoin to a recipient. The recipient or recipient's Bitcoin address is to be entered here.
 *Receive: Here the user can generate a payment request specifying the amount and adding a message to the request. This page generates URI link, a QR code, and shows your address which you can then give to the person you are requesting Bitcoin from. 
+*Transactions: Lists all of your Bitcoin transactions with different options for filtering and searching through these transactions. Also gives you the option to export a file with your transaction data.
+
+
+Though the user interface clearly lays out the functionality of the wallet, the lack of information presented when first starting and further using the wallet may cause some new and unexperienced users to find themselves very confused. When new and non-technical users are introduced to the idea of cryptocurrencies, a lot of information and concepts are thrown at them. Private keys, public keys, bitcoin addresses, encryption, blockchain, peer to peer networks. However, when using the wallet a lot of these ideas are hidden from the user and made to run in the background without the user have to worry about these. For example, when starting up the wallet, there is no mention of private or public keys, or even what the users are. The program assumes you already know how everything works and what is going on, and hides some of the details from the user. Even though encapsulating many of the raw technical details of how the program works simplifies the user experience, when transitioning to a new method to storing currency and using an open source project to do so, a new and non-technical user will want to know what exactly all their information is and where/how it is stored. 
+
 
 
 
@@ -39,3 +44,6 @@ Downloading the graphical user interface is not that difficult and after spendin
 
 
 ==Qualifications==
+
+==Sources==
+[1] https://github.com/bitcoin/bitcoin
