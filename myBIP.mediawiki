@@ -9,36 +9,32 @@
 
 ==Abstract==
 
-This BIP describes the need for new instructional documentation for new and unexperienced users using the Bitcoin Core client.
+This BIP(Bitcoin Improvement Proposal) describes the need for new instructional documentation for new and non-technical users using the Bitcoin Core client.
 
-Bitcoin has recently become a household name and with new users joining the platform daily, instructional documentation must be clear, easy, and coherent enough for any non-technical user to manage their way around the Bitcoin Core Client. The current official and available documentation by the Bitcoin Core organization is targeted towards technical users and developers. This type of documentation can be confusing for non-technical users and distray them from using the platform. With the goal of scaling the platform to world wide use, I propose to create new instructional documentation for the Bitcoin Core organization that will attract new non-technical users and inform them enough to be able to use the platform enough to stay around.
+Bitcoin has recently become a household name and with new users joining the platform daily, instructional documentation must be available that is clear, easy, and coherent enough for any non-technical user to manage their way around the Bitcoin Core Client. The current official and available documentation by the Bitcoin Core organization is targeted towards technical users and developers. This type of documentation can be confusing for non-technical users and distray them from using the platform. With the goal of scaling the platform to world wide use, I propose to create new instructional documentation for the Bitcoin Core organization that will attract new non-technical users and guide them enough to be able to use the platform and want to stay around.
 
 ==Introduction==
 
-The current Bitcoin Core client, bitcoin[1], has both a command line interface in C++ and a graphical user interface written in C++ and Qt. This client serves as a wallet for users to store, send, and recieve Bitcoin. More advanced and technical users enjoy using the client's command line interface the most and find it the easiest, as is the trend when tech-savvy people have the option of using a command line interface. However, most non-technical users have no experience with a command line interface and will have to resort to using the desktop graphical user interface.
+The current Bitcoin Core client, bitcoin [1], has both a command line interface in C++ and a graphical user interface written in C++ and Qt. This client serves as a wallet for users to store, send, and recieve Bitcoin. More advanced and technical users enjoy using the client's command line interface the most and find it the easiest, as is the trend when tech-savvy people have the option of using a command line interface. However, most non-technical users have no experience with a command line interface and will resort to using the desktop graphical user interface.
 
-Downloading the graphical user interface is not that difficult and after spending many hours downloading all the blockchain data files, a user finds themselves at a front page with four tabs:
+Downloading the graphical user interface is not that difficult and after spending many hours downloading all the blockchain data files, a user finds themselves with no introdutory guide and at a front page with four tabs:
 
-*Overview: The user's available, pending, and total balance are shown. A list of recent transactions is also listed to the right.
+*Overview: The user's available, pending, and total balances are shown. A list of recent transactions is also listed to the right.
 *Send: This page allows you to send a specific amount of Bitcoin to a recipient. The recipient or recipient's Bitcoin address is to be entered here.
-*Receive: Here the user can generate a payment request specifying the amount and adding a message to the request. This page generates URI link, a QR code, and shows your address which you can then give to the person you are requesting Bitcoin from. 
+*Receive: Here the user can generate a payment request specifying the amount and adding a message to the request. This page generates a URI link, a QR code, and shows your address which you can pick from and then give to the person you are requesting Bitcoin from. 
 *Transactions: Lists all of your Bitcoin transactions with different options for filtering and searching through these transactions. Also gives you the option to export a file with your transaction data.
 
-
-Though the user interface clearly lays out the functionality of the wallet, the lack of information presented when first starting and further using the wallet may cause some new and unexperienced users to find themselves very confused. When new and non-technical users are introduced to the idea of cryptocurrencies, a lot of information and concepts are thrown at them. Private keys, public keys, bitcoin addresses, encryption, blockchain, peer to peer networks. However, when using the wallet a lot of these ideas are hidden from the user and made to run in the background without the user have to worry about these. For example, when starting up the wallet, there is no mention of private or public keys, or even what the users are. The program assumes you already know how everything works and what is going on, and hides some of the details from the user. Even though encapsulating many of the raw technical details of how the program works simplifies the user experience, when transitioning to a new method to storing currency and using an open source project to do so, a new and non-technical user will want to know what exactly all their information is and where/how it is stored. 
-
-
-
-
-
-
-
-
-
+Though the user interface clearly lays out the functionality of the wallet, the lack of information presented when first starting and further using the wallet may cause some new and unexperienced users to find themselves very confused. When new and non-technical users are introduced to the idea of cryptocurrencies, a lot of information and concepts are thrown at them. Private keys, public keys, hashing, elliptic curve cryptography, bitcoin addresses, encryption, blockchain, mining, peer to peer networks, wallets. However, when using the wallet a lot of these ideas are hidden from the user and made to run in the background without the user having to worry about these. For example, when starting up the wallet, there is no mention of private or public keys, or even what the users are. With the word around town being that you need to know and securely hide your private keys, a new user may be reluctant to send any of their Bitcoin to this address. The program assumes you already know how everything works and what is going on, and hides some of the details from the user. Even though encapsulating many of the raw technical details of how the program works simplifies the user experience, when transitioning to a new method to storing currency and using an open source project to do so, a new and non-technical user will want to know what exactly all their information is and where/how it is stored otherwise they might not be able to fully trust the program. 
 
 ==Plan of Work==
+A set of coherent instructions must be shown to a user when starting the application for the first time and those instructions should also be avilable in a more detailed form to the user at any time in a new fifth tab in the program. 
 
 ===Instructions===
+When starting the application for the first time after installing it, a set of instructions should appear for the user that highlights some of the background processes taking place, where the user's sensitive data is being stored, and how to actually and effectively use the application.
+
+I propose for a slide-show popup that is displayed while the user's blockchain data files are being downloaded, as well as a new fifth "help" tab that contains more detailed instructions and information in a manual-type format. T
+
+
 
 ===Usability Report===
 
