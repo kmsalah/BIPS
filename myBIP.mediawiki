@@ -8,13 +8,27 @@
 </pre>
 
 ==Abstract==
-This BIP describes the need for new instructional documentation for new and unexperienced users using the Bitcoin Core client. Bitcoin has recently become a household name and with new users joining the platform daily, instructional documentation must be clear, easy, and coherent enough for any non-technical user to manager their way around the Bitcoin Core Client.
 
+This BIP describes the need for new instructional documentation for new and unexperienced users using the Bitcoin Core client.
 
-
-
+Bitcoin has recently become a household name and with new users joining the platform daily, instructional documentation must be clear, easy, and coherent enough for any non-technical user to manage their way around the Bitcoin Core Client. The current official and available documentation by the Bitcoin Core organization is targeted towards technical users and developers. This type of documentation can be confusing for non-technical users and distray them from using the platform. With the goal of scaling the platform to world wide use, I propose to create new instructional documentation for the Bitcoin Core organization that will attract new non-technical users and inform them enough to be able to use the platform enough to stay around.
 
 ==Introduction==
+
+The current Bitcoin Core client, bitcoind, has both a command line interface in C++ and a graphical user interface written in C++ and Qt. This client serves as a wallet for users to store, send, and recieve Bitcoin. More advanced and technical users enjoy using the client's command line interface the most and find it the easiest, as is the trend when tech-savvy people have the option of using a command line interface. However, most non-technical users have no experience with a command line interface and will have to resort to using the desktop graphical user interface.
+
+Downloading the graphical user interface is not that difficult and after spending many hours downloading the entire blockchain data files, a user finds themselves at a front page with four tabs:
+
+*Overview: The user's available, pending, and total balance are shown. A list of recent transactions is also listed to the right.
+*Send: This page allows you to send a specific amount of Bitcoin to a recipient. The recipient or recipient's Bitcoin address is to be entered here.
+*Receive: Here the user can generate a payment request specifying the amount and adding a message to the request. This page generates URI link, a QR code, and shows your address which you can then give to the person you are requesting Bitcoin from. 
+
+
+
+
+
+
+
 
 
 ==Plan of Work==
