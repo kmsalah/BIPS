@@ -8,6 +8,9 @@
 </pre>
 
 ==Abstract==
+This BIP describes the need for new instructional documentation for new and unexperienced users using the Bitcoin Core client. Bitcoin has recently become a household name and with new users joining the platform daily, instructional documentation must be clear, easy, and coherent enough for any non-technical user to manager their way around the Bitcoin Core Client.
+
+
 
 
 
